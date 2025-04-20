@@ -12,7 +12,7 @@ When securing the EclipseStore's clientGui with Spring-Security, the UI is unabl
 
 
 ## Steps to reproduce
-- open [https://localhost:8080/store-console](https://localhost:8080/store-console)
+- open [http://localhost:8080/store-console](http://localhost:8080/store-console)
 - enter credentials: user/password
 - clientUi: select instance/connect: http://localhost:8080/store-data/default/
 - see above error
