@@ -1,9 +1,6 @@
 # spr-sec-proto2
 Spring-Security with Eclipse-Store: showcases issues with eclipseStore's clientGui / console
 
-### Self backlink
-[https://github.com/krabat/spr-sec-proto2](https://github.com/krabat/spr-sec-proto2)
-
 
 ## Issue description
 When securing the EclipseStore's clientGui with Spring-Security, the UI is unable to connect to the REST service:
@@ -22,3 +19,7 @@ Note that with disabled security everything works fine:
 	SecurityConfig.java:
 	.anyRequest().permitAll() )		//uncomment
 	.anyRequest().authenticated() )		//comment
+
+
+### Self backlink
+[https://github.com/krabat/spr-sec-proto2](https://github.com/krabat/spr-sec-proto2)
