@@ -2,10 +2,12 @@
 Spring-Security with Eclipse-Store: showcases issues with eclipseStore's clientGui / console
 
 
+
 ## Issue description
 When securing the EclipseStore's clientGui with Spring-Security, the UI is unable to connect to the REST service:
 
 ![EclipseStoreClient Error](raw/img/eclipsestore-error.jpg?raw=true "EclipseStoreClient Error")
+
 
 
 ## Steps to reproduce
@@ -20,6 +22,10 @@ Note that with disabled security everything works fine:
 	.anyRequest().permitAll() )		//uncomment
 	.anyRequest().authenticated() )		//comment
 
+
+
+### EclipseStore discussions
+[https://github.com/eclipse-store/store/discussions/398](https://github.com/eclipse-store/store/discussions/398)
 
 ### Self backlink
 [https://github.com/krabat/spr-sec-proto2](https://github.com/krabat/spr-sec-proto2)
